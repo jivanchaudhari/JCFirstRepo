@@ -9,7 +9,16 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    int number;
+    scanf("%d",&number);
+    
+    if (number % 2 == 0) {
+        printf("Even\n");
+    }
+    else {
+        printf("Odd\n");
+
+    }
     return 0;
 }
